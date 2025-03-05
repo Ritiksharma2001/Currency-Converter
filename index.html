@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <div class="converter">
+            <label>From:</label>
+            <select id="from-currency"></select>
+            
+            <label>To:</label>
+            <select id="to-currency"></select>
+            
+            <input type="number" id="amount" placeholder="Enter amount">
+            <button onclick="convertCurrency()">Convert</button>
+
+            <h3 id="result"></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
